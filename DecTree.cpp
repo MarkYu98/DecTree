@@ -8,8 +8,7 @@ using namespace std;
 
 /* Decision Tree Binary Classifier
  * Author: Yifan Yu, Oct.12, 2017
- * (CSE 100 PA1-Star Point Task)
- * More info in writeup
+ * (CSE 100 PA1 Extension Project)
 **/
 
 // Calculate log2(x), helper for calculating Entropy
