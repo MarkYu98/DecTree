@@ -35,3 +35,25 @@ If we use all 5000 data from the training set to train, we get the result of:
 > **Reading 5000 data from train.data...finished!**  
 **Decision Tree trained! Size: 10 nodes.**
 
+Now to test the Decision Tree's performance, type `p` this time, then input the number of test data. We'll see the result: 
+> **Reading 1624 data from test.data...finished!  
+Predict Result output in 'result.data'.!  
+Finished! Correctly predicted 1581 out of 1624!  
+Accuracy:! 97.35\%.**
+
+The `result.data` file contains detail of prediction for each test data, confidence and whether it's correct.
+
+### Performance
+In my own test, the decision tree clearly works pretty well. In fact, we can know the tree is likely to be implemented correctly, by training the tree with different size of training data and test its performances, my results are as follow:
+- Train with 3000 data: accuracy 860/1624, 52.96%
+- Train with 4000 data: accuracy 860/1624, 52.96%
+- Train with 4100 data: accuracy 1210/1624, 74.51%
+- Train with 4300 data: accuracy 1071/1624, 65.95%
+- Train with 4500 data: accuracy 1581/1624, 97.35%
+- Train with 4800 data: accuracy 1581/1624, 97.35%
+
+We can see that the performance is related with the size of training data.  
+(Also, this dataset is pretty interesting, the performance changes dramatically from when we change from using the first 4000 data to using the first 4500 data, but changes very little when increasing the data size over 4500 or decreasing under 4000. This implies that the data is highly unbalanced, so maybe it's a good idea to random shuffle the data and then use them for the three different purposes.)
+
+## Reference
+YouTube Playlist: [Decision Tree](https://www.youtube.com/playlist?list=PLBv09BD7ez_4temBw7vLA19p3tdQH6FYO)
