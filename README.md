@@ -28,7 +28,9 @@ For the testing purpose, divide the dataset into **training**, **validation** an
 For my test, I use first 5000 data as **training set**, 5001-6500(1500 data) as **validation set** for pruning and 6501-8124(1624 data) as **test set**.
 
 Now we can start training and testing, as the program prompted 
-> `Waiting for command:`
-type `t` and enter, then input the number of test data to train. If we use all 5000 data from the training set to train, we get the result of: 
+> **Waiting for command:**
 
-> *Reading 5000 data from train.data...finished!*
+type `t` and enter, then input the number of test data to train. 
+If we use all 5000 data from the training set to train, we get the result of: 
+
+> **Reading 5000 data from train.data...finished!**
