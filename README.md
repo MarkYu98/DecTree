@@ -16,8 +16,7 @@ Orginally an extension task prompt (star point) for UCSD course CSE 100 Fall 17 
 ### Set up
 The dataset included (`agaricus.data`) is from: http://archive.ics.uci.edu/ml/datasets/Mushroom
 
-To compile, simply use `make`. I already included a `Makefile`.
-
+To compile, simply use `make`. I already included a `Makefile`.  
 To run, call `DecTree.cpp`.
 
 To use this decision tree program, first format the data as *"Class Attribute1 Attribute2 ... "* (all strings(chars)) as in `agaricus.data`, and configure the program as instructed (generate a `Classifier.config` file, I already configured it for this dataset so this config file already exists).
@@ -33,4 +32,6 @@ Now we can start training and testing, as the program prompted
 type `t` and enter, then input the number of test data to train. 
 If we use all 5000 data from the training set to train, we get the result of: 
 
-> **Reading 5000 data from train.data...finished!**
+> **Reading 5000 data from train.data...finished!**  
+**Decision Tree trained! Size: 10 nodes.**
+
