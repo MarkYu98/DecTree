@@ -10,7 +10,7 @@ Orginally an extension task prompt (star point) for UCSD course CSE 100 Fall 17 
 
 **Code:** `DecTree.cpp` (All declarations and implementations are in this cpp file (just for the sake of simplicity...), though it is not a good way to program in general)
 
-**Function implemented:** To train, validate(prune) a decision tree and use it to perform classfication task on binary classfication problems. However, it requires the data to be formatted and only supports string-type(discrete) attributes.
+**Function implemented:** To train, validate(prune) a decision tree and use it to perform classification task on binary classification problems. However, it requires the data to be formatted and only supports string-type(discrete) attributes.
 
 ## Test and Experiment (Also a manual)
 ### Set up
